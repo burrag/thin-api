@@ -1,0 +1,9 @@
+extensions:
+    psr11: Contributte\Psr11\DI\Psr11ContainerExtension
+
+di:
+    debugger: false
+
+services:
+    testHandler:
+        class: App\Handler\TestHandler
