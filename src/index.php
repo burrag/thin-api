@@ -13,7 +13,7 @@ use Tracy\Debugger;
 use Zend\Diactoros\ServerRequestFactory;
 use Zend\HttpHandlerRunner\Emitter\SapiEmitter;
 
-Debugger::enable();
+Debugger::enable(Debugger::DETECT, __DIR__ . '/../log');
 
 /** @var \Nette\DI\Container $container */
 $container = require 'container.php';
