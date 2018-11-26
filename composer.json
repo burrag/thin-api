@@ -1,5 +1,6 @@
 {
     "name": "burrag/thin-api",
+    "description": "Package for API",
     "authors": [
         {
             "name": "Marek Humpolík",
